@@ -21,7 +21,7 @@ public class StudentSearch {
 
     public ArrayList<Student> findAll(ArrayList<Student> students, String name) throws
             Exception {
-        ArrayList<Student> result = new ArrayList<Student>();
+        ArrayList<Student> result = new ArrayList<Student>(); // new comments findAll
         for (Student student: students)
             if (student.getName().equals(name)) {
                 result.add(student);
